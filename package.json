@@ -1,0 +1,1 @@
+{"name":"fear-viewer","private":true,"type":"module","scripts":{"build":"node build.mjs"},"dependencies":{"tone":"^15.1.22"},"devDependencies":{"rolldown":"^1.0.0"}}

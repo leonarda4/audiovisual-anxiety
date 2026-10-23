@@ -1,0 +1,462 @@
+[
+  {
+    "id": "fear",
+    "label": "Anxiety Inducer",
+    "recipes": [
+      {
+        "id": "1779143415810-e9ntucec",
+        "name": "Voronoi + Radial 00:30",
+        "noise": {
+          "type": "voronoi",
+          "params": {
+            "scale": 0.3,
+            "speed": 2.19,
+            "intensity": 1.4,
+            "contrast": 0.38,
+            "opacity": 0.65,
+            "seed": 100,
+            "timeInfluence": 1.5,
+            "grainSize": 0.55,
+            "flickerAmount": 0.3,
+            "threshold": 0.48,
+            "cellSize": 1.1,
+            "smoothness": 0.72,
+            "blur": 0.2,
+            "amplitude": 0.65,
+            "directionX": 0.55,
+            "directionY": -0.2,
+            "octaves": 4,
+            "lacunarity": 2.05,
+            "gain": 0.5,
+            "turbulenceStrength": 0.75,
+            "sharpness": 0.55,
+            "ridgeSharpness": 0.64,
+            "compression": 0.46,
+            "flowStrength": 0.7,
+            "particleDistortionStrength": 0.58,
+            "swirlAmount": 0.65,
+            "directionInstability": 0.35,
+            "baseScale": 1,
+            "warpScale": 1.3,
+            "warpStrength": 0.72,
+            "warpSpeed": 0.38,
+            "iterations": 3,
+            "cellDensity": 1.33,
+            "edgeSoftness": 0.35,
+            "jitter": 0.94,
+            "invert": 0,
+            "borderThickness": 0.37,
+            "fragmentation": 0.61,
+            "grainDensity": 0.55,
+            "ditherStrength": 0.4
+          }
+        },
+        "gradient": {
+          "type": "radial",
+          "movement": "pulse",
+          "params": {
+            "gradientScale": 0.64,
+            "movementSpeed": 0.92,
+            "displacementStrength": 0.25,
+            "centerX": 0.5,
+            "centerY": 0.5,
+            "rotation": -0.17,
+            "softness": 0.18,
+            "bandCount": 5,
+            "meshWarp": 1.17,
+            "fragmentAmount": 0.42
+          }
+        },
+        "color": {
+          "colorwayId": "fearEmotion",
+          "customStops": [
+            "#6b8386",
+            "#41dd46",
+            "#da5257",
+            "#7e3bb5"
+          ],
+          "editedStops": [],
+          "blendMode": "difference",
+          "params": {
+            "blendStrength": 1.11,
+            "saturation": 0.66,
+            "brightness": 1.5
+          }
+        },
+        "glitch": {
+          "type": "stepped",
+          "params": {
+            "enabled": 0,
+            "amount": 0.55,
+            "stripeDensity": 0.4,
+            "sliceJitter": 0.55,
+            "channelSplit": 0.28,
+            "flash": 0.16,
+            "speed": 0.7
+          }
+        },
+        "referenceRow": 4,
+        "renderer": "echo",
+        "source": "Echo",
+        "preview": "/assets/echo-gradients/1779143415810-e9ntucec.png"
+      },
+      {
+        "id": "1779190184646-qs7u0fvd",
+        "name": "Turbulence + Noise-Mapped 13:29",
+        "noise": {
+          "type": "turbulence",
+          "params": {
+            "scale": 0.2,
+            "speed": 0.72,
+            "intensity": 1.16,
+            "contrast": 2.3,
+            "opacity": 0.84,
+            "seed": 25,
+            "timeInfluence": 0.11,
+            "grainSize": 0.55,
+            "flickerAmount": 0.3,
+            "threshold": 0.48,
+            "cellSize": 1.1,
+            "smoothness": 0.72,
+            "blur": 0.2,
+            "amplitude": 0.65,
+            "directionX": 0.55,
+            "directionY": -0.2,
+            "octaves": 4,
+            "lacunarity": 2.05,
+            "gain": 0.5,
+            "turbulenceStrength": 0.75,
+            "sharpness": 0.55,
+            "ridgeSharpness": 0.64,
+            "compression": 0.46,
+            "flowStrength": 0.7,
+            "particleDistortionStrength": 0.58,
+            "swirlAmount": 0.65,
+            "directionInstability": 0.35,
+            "baseScale": 1,
+            "warpScale": 1.3,
+            "warpStrength": 0.72,
+            "warpSpeed": 0.38,
+            "iterations": 3,
+            "cellDensity": 0.65,
+            "edgeSoftness": 0.35,
+            "jitter": 0.6,
+            "invert": 0,
+            "borderThickness": 0.22,
+            "fragmentation": 0.35,
+            "grainDensity": 0.55,
+            "ditherStrength": 0.4
+          }
+        },
+        "gradient": {
+          "type": "noiseMapped",
+          "movement": "expand",
+          "params": {
+            "gradientScale": 2.5,
+            "movementSpeed": 0.66,
+            "displacementStrength": 0.35,
+            "centerX": 0.7,
+            "centerY": 0.99,
+            "rotation": -2.43,
+            "softness": 0.19,
+            "bandCount": 5,
+            "meshWarp": 1.17,
+            "fragmentAmount": 0.42
+          }
+        },
+        "color": {
+          "colorwayId": "fearEmotion",
+          "customStops": [
+            "#5be4ff",
+            "#ff6fae",
+            "#fff2c6",
+            "#7c65ff"
+          ],
+          "editedStops": [
+            "#030201",
+            "#C26000",
+            "#CFAA01",
+            "#807C8D",
+            "#020691",
+            "#F30700",
+            "#030201"
+          ],
+          "blendMode": "normal",
+          "params": {
+            "blendStrength": 0.64,
+            "saturation": 1.02,
+            "brightness": 1.8
+          }
+        },
+        "glitch": {
+          "type": "stepped",
+          "params": {
+            "enabled": 0,
+            "amount": 0.55,
+            "stripeDensity": 0.4,
+            "sliceJitter": 0.55,
+            "channelSplit": 0.28,
+            "flash": 0.16,
+            "speed": 0.7
+          }
+        },
+        "referenceRow": 1,
+        "renderer": "echo",
+        "source": "Echo",
+        "preview": "/assets/echo-gradients/1779190184646-qs7u0fvd.png"
+      },
+      {
+        "id": "1777975178657-nknmuall",
+        "name": "Fear",
+        "noise": {
+          "type": "curl",
+          "params": {
+            "scale": 1.31,
+            "speed": 2.24,
+            "intensity": 0.77,
+            "contrast": 0.49,
+            "opacity": 0.93,
+            "seed": 44,
+            "timeInfluence": 1.37,
+            "grainSize": 0.55,
+            "flickerAmount": 0.3,
+            "threshold": 0.48,
+            "cellSize": 1.1,
+            "smoothness": 0.72,
+            "blur": 0.2,
+            "amplitude": 0.65,
+            "directionX": 0.55,
+            "directionY": -0.2,
+            "octaves": 4,
+            "lacunarity": 2.05,
+            "gain": 0.5,
+            "turbulenceStrength": 0.75,
+            "sharpness": 0.55,
+            "ridgeSharpness": 0.64,
+            "compression": 0.46,
+            "flowStrength": 0.17,
+            "particleDistortionStrength": 0.3,
+            "swirlAmount": 1.13,
+            "directionInstability": 0.95,
+            "baseScale": 1,
+            "warpScale": 1.3,
+            "warpStrength": 0.72,
+            "warpSpeed": 0.38,
+            "iterations": 3,
+            "cellDensity": 0.65,
+            "edgeSoftness": 0.35,
+            "jitter": 0.6,
+            "invert": 0,
+            "borderThickness": 0.22,
+            "fragmentation": 0.35,
+            "grainDensity": 0.55,
+            "ditherStrength": 0.4
+          }
+        },
+        "gradient": {
+          "type": "band",
+          "movement": "pulse",
+          "params": {
+            "gradientScale": 1.8,
+            "movementSpeed": 0.69,
+            "displacementStrength": 0.66,
+            "centerX": 0.85,
+            "centerY": 0.86,
+            "rotation": -2.76,
+            "softness": 0.54,
+            "bandCount": 5,
+            "meshWarp": 1.17,
+            "fragmentAmount": 0.42
+          }
+        },
+        "color": {
+          "colorwayId": "fear",
+          "customStops": [
+            "#6b8386",
+            "#41dd46",
+            "#da5257",
+            "#7e3bb5"
+          ],
+          "editedStops": [],
+          "blendMode": "difference",
+          "params": {
+            "blendStrength": 0.9,
+            "saturation": 1.39,
+            "brightness": 1.74
+          }
+        },
+        "referenceRow": 2,
+        "preview": "/assets/echo-gradients/1777975178657-nknmuall.png",
+        "source": "Noise Lab \u00b7 user selected"
+      },
+      {
+        "id": "1778881764576-5wqkikza",
+        "name": "fBm / Fractal + Mesh 23:49",
+        "noise": {
+          "type": "fbm",
+          "params": {
+            "scale": 2.83,
+            "speed": 0.38,
+            "intensity": 0.75,
+            "contrast": 1.74,
+            "opacity": 0.71,
+            "seed": 62,
+            "timeInfluence": 0.06,
+            "grainSize": 0.55,
+            "flickerAmount": 0.3,
+            "threshold": 0.48,
+            "cellSize": 1.1,
+            "smoothness": 0.72,
+            "blur": 0.2,
+            "amplitude": 0.62,
+            "directionX": 0.55,
+            "directionY": -0.2,
+            "octaves": 6,
+            "lacunarity": 2.62,
+            "gain": 0.23,
+            "turbulenceStrength": 0.75,
+            "sharpness": 0.55,
+            "ridgeSharpness": 0.64,
+            "compression": 0.46,
+            "flowStrength": 0.7,
+            "particleDistortionStrength": 0.58,
+            "swirlAmount": 0.65,
+            "directionInstability": 0.35,
+            "baseScale": 1,
+            "warpScale": 1.3,
+            "warpStrength": 0.72,
+            "warpSpeed": 0.38,
+            "iterations": 3,
+            "cellDensity": 0.65,
+            "edgeSoftness": 0.35,
+            "jitter": 0.6,
+            "invert": 0,
+            "borderThickness": 0.22,
+            "fragmentation": 0.35,
+            "grainDensity": 0.55,
+            "ditherStrength": 0.4
+          }
+        },
+        "gradient": {
+          "type": "mesh",
+          "movement": "contract",
+          "params": {
+            "gradientScale": 2.22,
+            "movementSpeed": 1.43,
+            "displacementStrength": 0.16,
+            "centerX": 0.49,
+            "centerY": 0.66,
+            "rotation": -2.08,
+            "softness": 0.2,
+            "bandCount": 5,
+            "meshWarp": 0.64,
+            "fragmentAmount": 0.42
+          }
+        },
+        "color": {
+          "colorwayId": "fear",
+          "customStops": [
+            "#5be4ff",
+            "#ff6fae",
+            "#fff2c6",
+            "#7c65ff"
+          ],
+          "editedStops": [],
+          "blendMode": "overlay",
+          "params": {
+            "blendStrength": 1.45,
+            "saturation": 1.84,
+            "brightness": 1.6
+          }
+        },
+        "referenceRow": 3,
+        "preview": "/assets/echo-gradients/1778881764576-5wqkikza.png",
+        "source": "Noise Lab \u00b7 user selected"
+      },
+      {
+        "id": "1779116964724-gd4dc8vr",
+        "name": "Worley / Cellular + Mesh 17:09",
+        "noise": {
+          "type": "worley",
+          "params": {
+            "scale": 0.76,
+            "speed": 0.73,
+            "intensity": 0.88,
+            "contrast": 1.24,
+            "opacity": 0,
+            "seed": 74,
+            "timeInfluence": 1.5,
+            "grainSize": 0.55,
+            "flickerAmount": 0.3,
+            "threshold": 0.48,
+            "cellSize": 1.1,
+            "smoothness": 0.72,
+            "blur": 0.2,
+            "amplitude": 0.65,
+            "directionX": 0.55,
+            "directionY": -0.2,
+            "octaves": 4,
+            "lacunarity": 2.05,
+            "gain": 0.5,
+            "turbulenceStrength": 0.75,
+            "sharpness": 0.55,
+            "ridgeSharpness": 0.64,
+            "compression": 0.46,
+            "flowStrength": 0.7,
+            "particleDistortionStrength": 0.58,
+            "swirlAmount": 0.65,
+            "directionInstability": 0.35,
+            "baseScale": 1,
+            "warpScale": 1.3,
+            "warpStrength": 0.72,
+            "warpSpeed": 0.38,
+            "iterations": 3,
+            "cellDensity": 0.96,
+            "edgeSoftness": 0.53,
+            "jitter": 0.06,
+            "invert": 0,
+            "borderThickness": 0.22,
+            "fragmentation": 0.35,
+            "grainDensity": 0.55,
+            "ditherStrength": 0.4
+          }
+        },
+        "gradient": {
+          "type": "mesh",
+          "movement": "drift",
+          "params": {
+            "gradientScale": 2.5,
+            "movementSpeed": 0,
+            "displacementStrength": 0.01,
+            "centerX": 0.87,
+            "centerY": 0.97,
+            "rotation": -0.33,
+            "softness": 1,
+            "bandCount": 5,
+            "meshWarp": 1.5,
+            "fragmentAmount": 0.42
+          }
+        },
+        "color": {
+          "colorwayId": "fearEmotion",
+          "customStops": [
+            "#5be4ff",
+            "#ff6fae",
+            "#fff2c6",
+            "#7c65ff"
+          ],
+          "editedStops": [],
+          "blendMode": "mask",
+          "params": {
+            "blendStrength": 0.29,
+            "saturation": 1.22,
+            "brightness": 1.23
+          }
+        },
+        "referenceRow": 5,
+        "preview": "/assets/echo-gradients/1779116964724-gd4dc8vr.png",
+        "source": "Noise Lab \u00b7 user selected"
+      }
+    ]
+  }
+]
